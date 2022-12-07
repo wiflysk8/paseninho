@@ -26,6 +26,10 @@ export const TeamContainer = styled.div`
     text-align: center;
   }
 
+  strong {
+    font-weight: 900;
+  }
+
   div {
     display: flex;
     gap: 2rem;
