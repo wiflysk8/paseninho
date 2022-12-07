@@ -25,6 +25,10 @@
 }
 
 .toolbar_logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
   margin-left: 1rem;
 }
 
@@ -38,8 +42,14 @@
   width: 80px;
 }
 
+.toolbar_title {
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
 .spacer {
-  width: 36%;
+  width: 24%;
 }
 
 .toolbar_navigation-items ul {

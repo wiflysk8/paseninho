@@ -12,6 +12,10 @@ const toolbar = (props) => (
       </div>
       <div className="toolbar_logo">
         <img src={logo} alt="Paseniño Logo" />
+        <div className="toolbar_title">
+          <span>Paseniño</span>
+          <span> Centro de Logopedia</span>
+        </div>
       </div>
       <div className="spacer" />
       <div className="toolbar_navigation-items">
