@@ -1,5 +1,6 @@
 .toolbar {
   padding: 0 16%;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -18,9 +19,8 @@
     font-size: 13px;
     line-height: 16px;
   }
-
   .toolbar_logo {
-    padding-left: 7rem;
+    padding-left: 34%;
   }
 }
 
