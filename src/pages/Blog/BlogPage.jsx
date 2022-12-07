@@ -4,7 +4,7 @@ import { StyledServices } from "../Services/ServicesPageStyles";
 const BlogPage = () => {
   return (
     <StyledServices>
-      <h1>Servicios</h1>
+      <h1>Blog</h1>
     </StyledServices>
   );
 };
