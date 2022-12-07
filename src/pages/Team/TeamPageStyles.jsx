@@ -48,7 +48,7 @@ export const TeamImage = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 30%;
+  width: 45%;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 2rem;
