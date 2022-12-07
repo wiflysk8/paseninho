@@ -7,7 +7,7 @@ import { TeamContainer, TeamImage } from "./TeamPageStyles";
 const TeamPage = () => {
   return (
     <TeamContainer>
-      <h2>¿Cómo trabajamos?</h2>
+      <h2>¿Quiénes somos?</h2>
       <span>
         Paseniño Centro de Logopedia está dirigido por Jennifer Seoane Pintor y
         Rita Mondragón Nogueira. Además de ser logopedas con amplia experiencia
