@@ -5,7 +5,7 @@ export const MetodologyContainer = styled.div`
   flex-direction: column;
   margin-top: 8%;
   @media screen and (max-width: 768px) {
-    margin-top: 26%;
+    margin-top: 34%;
   }
 `;
 
