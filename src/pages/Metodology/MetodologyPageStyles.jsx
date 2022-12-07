@@ -47,17 +47,19 @@ export const MetodologyWrapper = styled.div`
   }
   @media screen and (max-width: 768px) {
     span {
-      width: 80%;
+      width: 90%;
       text-align: left;
       padding-left: 1rem;
       letter-spacing: 2px;
+      font-size: 1rem;
     }
     p {
-      width: 80%;
+      width: 90%;
       text-align: left;
       padding-left: 1rem;
       letter-spacing: 2px;
       margin-bottom: 3rem;
+      font-size: 1rem;
     }
   }
 `;

@@ -5,7 +5,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 50%;
   max-width: 400px;
   z-index: 200;
   transform: translateX(-100%);
@@ -30,13 +30,7 @@
 
 .side-drawer a {
   text-decoration: none;
-  color: #640263;
   font-size: 1.2rem;
-}
-
-.side-drawer a:hover,
-.side-drawer a:active {
-  color: #ee6d04;
 }
 
 @media screen and (min-width: 759px) {

@@ -1,16 +1,16 @@
 import { NavLink } from "react-router-dom";
 import "./SideDrawer.css";
 
-const sideDrawer = (props) => {
+const SideDrawer = (props) => {
   let drawerClasses = ["side-drawer"];
-
-  const handleShow = () => {
-    props.show(false);
-  };
 
   if (props.show) {
     drawerClasses = ["side-drawer", "open"];
   }
+
+  const handleHideDrawer = () => {
+    props.hideDrawer();
+  };
 
   return (
     <nav className={drawerClasses.join(" ")}>
@@ -22,7 +22,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Inicio
           </NavLink>
@@ -34,7 +34,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Equipo
           </NavLink>
@@ -46,7 +46,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Servicios
           </NavLink>
@@ -58,7 +58,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Metodología
           </NavLink>
@@ -70,7 +70,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Blog
           </NavLink>
@@ -82,7 +82,7 @@ const sideDrawer = (props) => {
             style={({ isActive }) => ({
               color: isActive ? "#B1C2B6" : "#524f4ffa",
             })}
-            onClick={handleShow}
+            onClick={handleHideDrawer}
           >
             Contacto
           </NavLink>
@@ -91,4 +91,4 @@ const sideDrawer = (props) => {
     </nav>
   );
 };
-export default sideDrawer;
+export default SideDrawer;

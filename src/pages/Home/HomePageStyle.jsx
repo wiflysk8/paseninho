@@ -51,7 +51,7 @@ export const StyledQuote = styled.div`
 export const StyledDescription = styled(MetodologyWrapper)`
   margin-top: 3rem;
   p {
-    margin: 14px;
+    margin: 10px;
     text-align: left;
   }
   strong {

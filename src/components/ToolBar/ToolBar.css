@@ -13,11 +13,14 @@
 @media screen and (max-width: 760px) {
   .toolbar {
     padding: 0 1rem;
-    height: 80px;
   }
   .toolbar_title {
     font-size: 13px;
     line-height: 16px;
+  }
+
+  .toolbar_logo {
+    padding-left: 9rem;
   }
 }
 
