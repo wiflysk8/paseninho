@@ -9,7 +9,13 @@ export const TeamContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   @media screen and (max-width: 768px) {
-    margin-top: 26%;
+    margin-top: 34%;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    color: #b1c2b6;
   }
   span {
     font-size: 1.3rem;
@@ -26,15 +32,15 @@ export const TeamContainer = styled.div`
   }
   @media screen and (max-width: 768px) {
     span {
-        width: 80%;
-        text-align: left;
-        padding-left: 1rem;
-        letter-spacing: 2px;
-        }
-    div {
-        flex-direction: column;
+      width: 80%;
+      text-align: left;
+      padding-left: 1rem;
+      letter-spacing: 2px;
     }
-    
+    div {
+      flex-direction: column;
+    }
+  }
 `;
 
 export const TeamImage = styled.div`
