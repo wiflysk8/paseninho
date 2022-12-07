@@ -8,7 +8,7 @@ export const StyledHome = styled.div`
   justify-content: center;
   margin-top: 5%;
   @media (max-width: 768px) {
-    margin-top: 26%;
+    margin-top: 36%;
   }
 `;
 
