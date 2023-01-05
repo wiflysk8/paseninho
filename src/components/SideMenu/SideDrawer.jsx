@@ -51,6 +51,12 @@ const SideDrawer = (props) => {
             Servicios
           </NavLink>
         </li>
+        {/*   <NavLink className={"NavLink"} to={"/servicios/ninos"}>
+          <span className="subSection">Niños</span>
+        </NavLink>
+        <NavLink className={"NavLink"} to={"/servicios/adultos"}>
+          <span className="subSection">Adultos</span>
+        </NavLink> */}
         <li>
           <NavLink
             className={"NavLink"}

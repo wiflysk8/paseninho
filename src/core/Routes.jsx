@@ -3,6 +3,8 @@ import BlogPage from "../pages/Blog/BlogPage";
 import ContactPage from "../pages/Contact/ContactPage";
 import HomePage from "../pages/Home/HomePage";
 import MetodologyPage from "../pages/Metodology/MetodologyPage";
+import Adults from "../pages/Services/Adults/Adults";
+import Kids from "../pages/Services/Kids/Kids";
 import ServicesPage from "../pages/Services/ServicesPage";
 import TeamPage from "../pages/Team/TeamPage";
 
@@ -15,6 +17,8 @@ const RoutesFile = () => {
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/contacto" element={<ContactPage />} />
       <Route path="/metodologia" element={<MetodologyPage />} />
+      <Route path="/servicios/ninos" element={<Kids />} />
+      <Route path="/servicios/adultos" element={<Adults />} />
     </Routes>
   );
 };

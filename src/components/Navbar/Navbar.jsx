@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
-  const title = `Paseniño`;
+  const title = `Metas`;
   const subtitle = "Centro de Logopedia";
 
   return (

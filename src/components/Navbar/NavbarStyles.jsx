@@ -54,6 +54,7 @@ export const MenuContainer = styled.div`
     text-decoration: none;
     color: #000;
   }
+
   @media screen and (max-width: 500px) {
     transition: 0.8s all ease;
     font-size: 1rem;

@@ -9,7 +9,7 @@ const TeamPage = () => {
     <TeamContainer>
       <h2>¿Quiénes somos?</h2>
       <span>
-        <strong>Paseniño Centro de Logopedia</strong> está dirigido por Rita
+        <strong>Metas Centro de Logopedia</strong> está dirigido por Rita
         Mondragón Nogueira y Jennifer Seoane Pintor. Además de ser logopedas con
         amplia experiencia en el campo, la constante actualización de sus
         conocimientos y técnicas les permite ofrecer a sus pacientes la mejor

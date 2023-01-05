@@ -16,7 +16,7 @@ const HomePage = () => {
         </StyledImageContainer>
         <StyledDescription>
           <p>
-            <strong>Paseniño Centro de Logopedia </strong>
+            <strong>Metas Centro de Logopedia </strong>
             nace de las ganas de brindar un servicio especializado en los
             trastornos de la comunicación, habla, lenguaje, deglución y voz.
           </p>

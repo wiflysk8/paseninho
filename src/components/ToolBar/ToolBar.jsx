@@ -11,9 +11,9 @@ const toolbar = (props) => (
         <SideMenu click={props.drawerToggleClickHandler} />
       </div>
       <div className="toolbar_logo">
-        <img src={logo} alt="Paseniño Logo" />
+        <img src={logo} alt="Metas Logo" />
         <div className="toolbar_title">
-          <span>Paseniño</span>
+          <span>Metas</span>
           <span> Centro de Logopedia</span>
         </div>
       </div>
@@ -50,7 +50,17 @@ const toolbar = (props) => (
                 color: isActive ? "#B1C2B6" : "#524f4ffa",
               })}
             >
-              Servicios
+              <div class="dropdown">
+                <div class="dropbtn">Servicios</div>
+                <div class="dropdown-content">
+                  <NavLink className={"NavLink"} to={"/servicios/ninos"}>
+                    Niños
+                  </NavLink>
+                  <NavLink className={"NavLink"} to={"/servicios/adultos"}>
+                    Adultos
+                  </NavLink>
+                </div>
+              </div>
             </NavLink>
           </li>
           <li>
