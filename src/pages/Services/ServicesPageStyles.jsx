@@ -26,10 +26,18 @@ export const StyledServices = styled.div`
     text-align: center;
   }
 
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    color: #b1c2b6;
+    text-align: center;
+  }
+
   @media screen and (max-width: 768px) {
     margin-top: 34%;
     h2 {
-      font-size: 1.2rem;
+      font-size: 2rem;
     }
   }
 `;

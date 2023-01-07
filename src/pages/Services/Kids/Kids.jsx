@@ -8,7 +8,7 @@ import {
 const Kids = () => {
   return (
     <StyledServices>
-      <h2>ÁREAS DE INTERVENCIÓN EN NIÑOS</h2>
+      <h4>ÁREAS DE INTERVENCIÓN EN NIÑOS</h4>
       <ContentContainer>
         <ContentColumn>
           <h3>LENGUAJE</h3>

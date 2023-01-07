@@ -23,7 +23,7 @@ const ServicesPage = () => {
 
   return (
     <StyledServices>
-      <h2>Servicios</h2>
+      <h2>Nuestros Servicios</h2>
       <p>Nuestros servicios están orientados tanto a niños como a adultos.</p>
       <ImagesWrapper>
         <ImageContainer onClick={onNavigateKids}>

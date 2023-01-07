@@ -56,6 +56,7 @@ export const TeamImage = styled.div`
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 2rem;
+
   img {
     width: 100%;
     height: 100%;

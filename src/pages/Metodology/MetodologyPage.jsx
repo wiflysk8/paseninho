@@ -20,12 +20,15 @@ const MetodologyPage = () => {
           Antes de iniciar una adecuada intervención, realizamos un estudio
           detallado de todos los procesos alterados y puntos fuertes de cada
           paciente, para desarrollar un plan de intervención adaptado a sus
-          intereses.
+          necesidades.
         </span>
 
         <h3>1º Entrevista. Gratuita</h3>
         <ProgressBar bgcolor={"#81a08a"} completed={20} />
-        <p>Primera toma de contacto para reunir datos personales.</p>
+        <p>
+          Primera toma de contacto para reunir datos personales.
+          <br /> Gratuita y sin compromiso
+        </p>
         <MetodologyImage>
           <img src={InterviewImg} alt="Entrevista" />
         </MetodologyImage>
@@ -45,9 +48,8 @@ const MetodologyPage = () => {
         <h3>3º Comunicación</h3>
         <ProgressBar bgcolor={"#81a08a"} completed={60} />
         <p>
-          Una vez elaborado el informe con la recogida de datos, se transmite
-          toda la información y se concreta el plan de trabajo adaptado y
-          personalizado.
+          Una vez elaborado el informe, se transmite toda la información y se
+          concreta el plan de trabajo adaptado y personalizado.
         </p>
         <MetodologyImage>
           <img src={InformacionImg} alt="Entrevista" />
@@ -56,15 +58,13 @@ const MetodologyPage = () => {
         <h3>4º Intervención</h3>
         <ProgressBar bgcolor={"#81a08a"} completed={80} />
         <p>
-          El plan de intervención es enfocado en base a los objetivos y
-          trabajamos de manera conjunta con las familias, dando pautas semanales
-          y aclarando dudas. Siempre bajo el consentimiento familiar o del
-          propio paciente, nos parece primordial tener un contacto estrecho con
-          los diferentes profesionales que trabajan con nuestros pacientes:
-          Profesores, Fisioterapeutas, Psicólogos, Ortodoncistas, Terapeutas
-          Ocupacionales… Y sobre todo, las familias siempre tienen un
-          conocimiento total de la evolución y lo comunicado entre
-          profesionales.
+          El plan de intervención es enfocado en base a los objetivos que se
+          plasman en el informe y trabajamos de manera conjunta con las
+          familias, dando pautas semanales y aclarando dudas.
+          <br /> Siempre bajo el consentimiento familiar o del propio paciente,
+          nos parece primordial tener un contacto estrecho con los diferentes
+          profesionales que trabajan con nuestros pacientes: Profesores,
+          Psicólogos, Ortodoncistas, Terapeutas Ocupacionales…
         </p>
         <MetodologyImage>
           <img src={IntervencionImg} alt="Entrevista" />
