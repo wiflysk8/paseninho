@@ -12,13 +12,13 @@ class DemoCarousel extends Component {
       <CarouselWrapper>
         <Carousel showStatus={false} width={"100%"} infiniteLoop={true}>
           <div>
-            <img src={image1} alt="demo of " />
+            <img src={image3} alt="demo of " />
           </div>
           <div>
             <img src={image2} alt="demo of " />
           </div>
           <div>
-            <img src={image3} alt="demo of " />
+            <img src={image1} alt="demo of " />
           </div>
         </Carousel>
       </CarouselWrapper>
