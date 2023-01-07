@@ -28,19 +28,6 @@ const Kids = () => {
             </ul>
           </div>
 
-          <h3>LECTURA Y ESCRITURA</h3>
-          <div>
-            <ul>
-              <li>Dificultades en la adquisición de la lecto-escritura</li>
-              <li>Dislexia</li>
-              <li>Disgrafía</li>
-              <li>Disortografía</li>
-              <li>Discalculia</li>
-            </ul>
-          </div>
-        </ContentColumn>
-
-        <ContentColumn>
           <h3>HABLA</h3>
           <div>
             <ul>
@@ -49,6 +36,19 @@ const Kids = () => {
               <li style={{ listStyle: "inside" }}>Disartria</li>
               <li style={{ listStyle: "inside" }}>Disfemia (Tartamudez)</li>
               <li style={{ listStyle: "inside" }}>Taquilalia</li>
+            </ul>
+          </div>
+        </ContentColumn>
+
+        <ContentColumn>
+          <h3>LECTURA Y ESCRITURA</h3>
+          <div>
+            <ul>
+              <li>Dificultades en la adquisición de la lecto-escritura</li>
+              <li>Dislexia</li>
+              <li>Disgrafía</li>
+              <li>Disortografía</li>
+              <li>Discalculia</li>
             </ul>
           </div>
 

@@ -18,8 +18,8 @@ export const StyledImageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 65%;
-  object-fit: ;
+  width: 50%;
+  object-fit: cover;
   img {
     width: 100%;
     height: 100%;

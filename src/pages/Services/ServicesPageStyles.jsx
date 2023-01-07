@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledServices = styled.div`
@@ -42,6 +41,17 @@ export const ImageContainer = styled.div`
   justify-content: center;
   width: 400px;
   gap: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
 
   span {
     font-size: 1.3rem;
@@ -127,25 +137,5 @@ export const ContentColumn = styled.div`
 
       padding: 4px 3.5rem;
     }
-  }
-`;
-
-export const StyledLink = styled(Link)`
-  text-decoration: none;
-  color: #b1c2b6;
-  font-size: 1.3rem;
-  font-weight: 500;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-
-  &:hover {
-    text-decoration: underline;
-  }
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
   }
 `;

@@ -4,7 +4,7 @@ import {
   StyledHome,
   StyledImageContainer,
 } from "./HomePageStyle";
-import Background from "../../assets/images/bgquote.png";
+import Background from "../../assets/images/kids8.JPG";
 import DemoCarousel from "../../components/ImageCarousel/ImageCarousel";
 
 const HomePage = () => {

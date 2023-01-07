@@ -1,5 +1,5 @@
 import { LogoContainer, MenuContainer, NavbarStyled } from "./NavbarStyles";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/Metas_logo.png";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
