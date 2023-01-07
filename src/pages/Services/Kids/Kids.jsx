@@ -38,6 +38,14 @@ const Kids = () => {
               <li style={{ listStyle: "inside" }}>Taquilalia</li>
             </ul>
           </div>
+
+          <h3>COMUNICACIÓN</h3>
+          <div>
+            <ul>
+              <li>Habilidades sociales</li>
+              <li>Sistemas aumentativos y alternativos</li>
+            </ul>
+          </div>
         </ContentColumn>
 
         <ContentColumn>
@@ -65,10 +73,24 @@ const Kids = () => {
               <li style={{ listStyle: "inside" }}>
                 Alteraciones en la deglución
               </li>
-              <li>Succión digital y labial</li>
               <li>Inconpetencia velar</li>
-              <li>Uso del chupete</li>
-              <li>Mordisqueo y onicofagía</li>
+              <li>Malos hábitos: succiones, uso de chupete, mordisqueo.</li>
+            </ul>
+          </div>
+
+          <h3>AUDICIÓN</h3>
+          <div>
+            <ul>
+              <li>Hipoacusia</li>
+              <li>Implante coclear</li>
+            </ul>
+          </div>
+
+          <h3>VOZ</h3>
+          <div>
+            <ul>
+              <li>Disfonía</li>
+              <li>Higiene vocal</li>
             </ul>
           </div>
         </ContentColumn>

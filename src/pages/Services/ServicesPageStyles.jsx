@@ -118,6 +118,7 @@ export const ContentColumn = styled.div`
   }
   ul {
     display: list-item;
+    align-self: flex-start;
   }
   li {
     flex-direction: column;
@@ -127,7 +128,7 @@ export const ContentColumn = styled.div`
   }
   div {
     margin-bottom: 3rem;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,11 +140,10 @@ export const ContentColumn = styled.div`
       width: 84%;
     }
     h3 {
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       text-align: center;
       padding: 0.2rem 2rem;
-
-      padding: 4px 3.5rem;
+      padding: 4px 5rem;
     }
   }
 `;
